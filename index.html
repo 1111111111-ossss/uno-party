@@ -1,0 +1,13 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>UNO Party</title><link rel="stylesheet" href="/style.css"></head>
+<body><div class="app">
+<header><div class="brand">UNO<span>PARTY</span></div><div class="room">房间 <b id="code">----</b> <button id="invite">🔗 邀请</button></div></header>
+<main>
+<section id="lobby" class="panel"><h1>和好友来一局</h1><input id="name" placeholder="你的昵称" maxlength="12"><div class="row"><button id="create" class="primary">创建房间</button><input id="joinCode" placeholder="房间号"><button id="join">加入</button></div><p id="msg"></p></section>
+<section id="game" hidden>
+<div class="players" id="players"></div>
+<div class="table"><div class="turn" id="turn"></div><div class="pile"><div id="top" class="card big"></div><div class="deck">UNO<br><small>摸牌</small></div></div><div class="colorbar" id="colorbar"></div></div>
+<div class="actions"><button id="draw">摸牌</button><button id="start" class="primary">开始游戏</button><div class="emoji" id="emojis">😂 ❤️ 👍 😱 🎉</div></div>
+<div class="hand" id="hand"></div>
+</section>
+<aside id="side"><div class="sidehead">💬 房间聊天</div><div id="chat"></div><div class="send"><input id="chatInput" placeholder="说点什么…"><button id="send">发送</button></div></aside>
+</main></div><script src="/socket.io/socket.io.js"></script><script src="/app.js"></script></body></html>
