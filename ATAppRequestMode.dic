@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ATappListDicKey</key>
+	<dict>
+		<key>159</key>
+		<string>tbopen</string>
+		<key>162</key>
+		<string>ctrip</string>
+		<key>164</key>
+		<string>imeituan</string>
+		<key>167</key>
+		<string>pddopen</string>
+		<key>168</key>
+		<string>xhsdiscover</string>
+		<key>177</key>
+		<string>weixin</string>
+		<key>185</key>
+		<string>sinaweibo</string>
+		<key>194</key>
+		<string>iosamap</string>
+		<key>270</key>
+		<string>pinduoduo</string>
+		<key>272</key>
+		<string>meituanwaimai</string>
+		<key>273</key>
+		<string>snssdk1128</string>
+		<key>275</key>
+		<string>alipay</string>
+		<key>283</key>
+		<string>fleamarket</string>
+		<key>336</key>
+		<string>bilibili</string>
+		<key>337</key>
+		<string>quark</string>
+	</dict>
+	<key>ATrequestTimeKey</key>
+	<integer>36</integer>
+</dict>
+</plist>
